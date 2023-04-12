@@ -3,10 +3,24 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.current {
+a {
+  text-decoration: none;
+}
+
+.current:visited {
   color: green;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
